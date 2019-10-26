@@ -13,18 +13,17 @@
 </head>
 
 <body>
-    <!--This jumbotron will hold a litte header, with a little text, and a button to submit what the user puts for the giphys they want to see-->
+    <!--This jumbotron will hold a litte header, with a little text-->
     <div class="jumbotron">
         <h1 class="display-4">To Animate or To Pause That is the Question?</h1>
 
         <h3 class="Jumbo-h3">Only you can make something alive or freeze it in time! You and you alone have this power
             with
             just one click!</h3>
-
-        <hr class="my-4">
-        <!--This in the jumbotron but it will hold the button and search bar -->
+    </div>
+    <div id="container">
+        <div id="premade-buttons"></div>
         <form>
-
             <label for="input-bar">Search Giphys Here:</label>
 
             <input type="text" class="name-of-giphy">
@@ -32,17 +31,7 @@
             <input type="submit" class="submit-giphy" value="Get that Giphy">
 
         </form>
-    </div>
-
-    <!-- div id wrapper will hold giphy buttons already made by the coder -->
-    <div id="wrapper">
-
-        <div id="premade-buttons"></div>
-
-    </div>
-    <!--Using a div id container to hold the giphys images-->
-    <div id="container">
-
+    
         <div id="giphys-here"></div>
 
     </div>
