@@ -1,0 +1,29 @@
+.newGiphy {
+    display: inline-block;
+    padding: 15px;
+    
+  }
+  
+  body {
+      width: 100%;
+      background: lightskyblue;
+  }
+  
+  .gif-image {
+
+      height: 220px;
+      width: 220px;
+      border: 2px solid blue;
+  }
+
+  .jumbotron {
+      background: antiquewhite;
+  }
+  
+  h1 {
+      font-family: 'Times New Roman', Times, serif
+  }
+
+  label {
+      color: rgb(255, 0, 0);
+  }
